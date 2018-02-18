@@ -4,6 +4,7 @@
   "description": "",
   "main": "loader.js",
   "scripts": {
+    "start": "node loader.js", 
     "production": "pm2 start loader.js --name backend"
   },
   "author": "João Felipe",
